@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df36d1c7-886d-4c5c-ae8d-5a22aaaa47ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lpco2-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile-dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keycloak.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lint-staged.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sonar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.husky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.husky/commit-msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/css-module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/environment.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/formTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/serviceTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/svg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/webbfontaine/logo-sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/webbfontaine/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/fonts/wf-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/fonts/wf-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/fonts/wf-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/fonts/wf-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wf-icons/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccessDenied/AccessDenied.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccessDenied/AccessDenied.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccessDenied/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentContainer/ContentContainer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentContainer/ContentContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FieldContent/FieldContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FieldContent/FieldContentTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FieldContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FlexableButton/FlexableButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FlexableButton/FlexableButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FlexableButton/FlexableButtonType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FlexableButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Label/Label.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Label/Label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Label/LabelType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Label/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/ModalTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Popup/Popup.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Popup/Popup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Popup/PopupTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Popup/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithOneField/RightItemWithOneField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithOneField/RightItemWithOneField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithOneField/RightItemWithOneFieldTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithOneField/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithTwoField/RightItemWithTwoField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithTwoField/RightItemWithTwoField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithTwoField/RightItemWithTwoFieldTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightItemWithTwoField/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithOneField/RowWithOneField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithOneField/RowWithOneField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithOneField/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithTwoField/RowWithTwoField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithTwoField/RowWithTwoField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RowWithTwoField/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionBody/SectionBody.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionBody/SectionBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionBody/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionRow/SectionRow.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionRow/SectionRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionRow/SectionRowTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionRow/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switcher/Switcher.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switcher/SwitcherTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switcher/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContent/TabContent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContent/TabContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContentSection/TabContentSection.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContentSection/TabContentSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContentSection/TabContentSectionType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabContentSection/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/FItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/THeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/TextField.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/TextField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/TextFieldTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constatnts/appPaths.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constatnts/errorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constatnts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createArrFromObjKeysDependsKeyBoolean.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createArrayFromItemsArr.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createArrayWithEntityIds.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createDataFromArrayItems.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createOptionsArrayFromData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createOptionsArrayFromStrArr.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/errorsGenerator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/filterDataByPropName.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/filterDataByPropNameInArray.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/generateDataFromEntities.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getErrorDescription.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getErrorItemsFromState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getFormatDate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getMandatoryItems.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getSchemaObject.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/getSelectValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/hasError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/isBackId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/isValid.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/transformNaNValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useTypeInPath.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/AppLayout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/AppLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/AppMenu/AppMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/AppMenu/AppMenuTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/AppMenu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarFooter/SideBarFooter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarFooter/SideBarFooterTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarFooter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarHeader/SideBarHeader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarHeader/SideBarHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarHeader/SideBarHeaderTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/components/SideBarHeader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/AppLayout/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryTBodyView/LDocumentHistoryTBodyView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryTBodyView/LDocumentHistoryTBodyView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryTBodyView/LDocumentHistoryTBodyViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryTBodyView/LDocumentHistoryTBodyViewTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryTBodyView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryView/LDocumentHistoryView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryView/LDocumentHistoryView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryView/LDocumentHistoryViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/components/LDocumentHistoryView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/containers/LDocumentHistory/LDocumentHistory.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/containers/LDocumentHistory/LDocumentHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/containers/LDocumentHistory/LDocumentHistoryTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/containers/LDocumentHistory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/services/documentHistoryApiService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/LDocumentHistory/store/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentPopupContentView/LAttDocumentPopupContentView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentPopupContentView/LAttDocumentPopupContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentPopupContentView/LAttDocumentPopupContentViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentPopupContentView/LAttDocumentPopupContentViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentPopupContentView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsBodyView/LAttDocumentsBodyView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsBodyView/LAttDocumentsBodyView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsBodyView/LAttDocumentsBodyViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsBodyView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/LAttDocumentsViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LAttDocumentsView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesBodyView/LBeneficiariesBodyView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesBodyView/LBeneficiariesBodyView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesBodyView/LBeneficiariesBodyViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesBodyView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiariesViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiaryPopupContentView/LBeneficiaryPopupContentView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiaryPopupContentView/LBeneficiaryPopupContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiaryPopupContentView/LBeneficiaryPopupContentViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiaryPopupContentView/LBeneficiaryPopupContentViewViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/LBeneficiaryPopupContentView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LBeneficiariesView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LFeesView/LFeesView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LFeesView/LFeesView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LFeesView/LFeesViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LFeesView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemPopupContentView/LItemPopupContentView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemPopupContentView/LItemPopupContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemPopupContentView/LItemPopupContentViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemPopupContentView/LItemPopupContentViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemPopupContentView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsBodyView/LItemsBodyView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsBodyView/LItemsBodyView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsBodyView/LItemsBodyViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsBodyView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/LItemsViewType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LItemsView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseHeaderView/LicenseHeaderView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseHeaderView/LicenseHeaderView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseHeaderView/LicenseHeaderViewTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseHeaderView/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseNamesAndPartiesView/LicenseNamesAndPartiesView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseNamesAndPartiesView/LicenseNamesAndPartiesViewTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseNamesAndPartiesView/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseTabView/LicenseTabView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseTabView/LicenseTabView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseTabView/LicenseTabViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseTabView/LicenseTabViewTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/components/LicenseTabView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentPopupContent/LAttDocumentPopupContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentPopupContent/LAttDocumentPopupContentTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentPopupContent/attDocumentInfoDefaultValues.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentPopupContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentsContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/LAttDocumentsContainerTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LAttDocumentsContainer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/LBeneficiariesContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/LBeneficiaryPopupContent/LBeneficiaryPopupContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/LBeneficiaryPopupContent/LBeneficiaryPopupContentTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/LBeneficiaryPopupContent/beneficiaryInfoDefaultValues.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/LBeneficiaryPopupContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LBeneficiariesContainer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/LItemPopupContent/LItemPopupContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/LItemPopupContent/LItemPopupContentTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/LItemPopupContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/LItemPopupContent/itemInfoDefaultValues.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/LItemsContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LItemsContainer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/License/License.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/License/License.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/License/LicenseTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/License/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/License/licensePropsDefaultValues.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseHeaderContainer/LicenseHeaderContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseHeaderContainer/LicenseHeaderContainerTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseHeaderContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseNamesAndPartiesContainer/LicenseNamesAndPartiesContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseNamesAndPartiesContainer/LicenseNamesAndPartiesContainerTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/containers/LicenseNamesAndPartiesContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/helpers/helpersParamsTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/options.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/services/licenseApiService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/store/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/utils/errorsInOperation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/utils/licenseDataCollector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/utils/pushDefaultLpcoData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/utils/setItemsErrors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/attDocumentValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/beneficiaryValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/headerValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/itemValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/licensePropsValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/License/validationObjects/namesAndPartiesValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesTBodyView/LicensesTBodyView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesTBodyView/LicensesTBodyView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesTBodyView/LicensesTBodyViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesTBodyView/LicensesTBodyViewTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesTBodyView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesView/LicensesView.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesView/LicensesView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesView/LicensesViewTexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/components/LicensesView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/configs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/containers/Licenses/Licenses.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/containers/Licenses/Licenses.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/containers/Licenses/LicensesTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/containers/Licenses/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/routes/LicensesRoutes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/services/licensesApiService/ILicensesParamsTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/services/licensesApiService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Licenses/store/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/AppRoutes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/licenseTypeApiService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/licenseTypeApiService/licenseTypeApiServiceTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/requestService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/requestService/requestServiceTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/rimmSearchService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/rimmSearchService/rimmSearchServiceTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/uploadService/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/attachments/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/commoditiesAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/commodities/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/companies/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/countries/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/customsOfficeAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/customsOffice/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/declarants/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/exchangeRateAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/exchangeRate/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/entityAdapters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/licenseType/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/packagesAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/packages/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/popupConfigs/popupConfigsAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/popupConfigs/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/popupConfigs/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/popupConfigs/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootSaga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/termsOfDeliveryAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/termsOfDelivery/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/slices.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/uploads/uploadsAdapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wf-registry-login.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="devel" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OKGwqP5KfDliefeL5yDiD5vzFk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/hayk/Desktop/todo/lpco2-client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/hyeghiazaryan/Desktop/projects/lpco2-client/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/hyeghiazaryan/Desktop/projects/lpco2-client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/License/containers" />
+      <recent name="$PROJECT_DIR$/src/modules/License/components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="kghisajdi">
+      <created>1681200618213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681200618213</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df36d1c7-886d-4c5c-ae8d-5a22aaaa47ef" name="Changes" comment="" />
+      <created>1681302100634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681302100634</updated>
+      <workItem from="1681302101668" duration="66627000" />
+      <workItem from="1681785368796" duration="11181000" />
+      <workItem from="1689780038554" duration="1136000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="devel" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kghisajdi" />
+    <option name="LAST_COMMIT_MESSAGE" value="kghisajdi" />
+  </component>
+</project>
